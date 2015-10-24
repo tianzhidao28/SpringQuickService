@@ -4,3 +4,7 @@ mklink /J "D:\Workplace\oschina\rocyuan\rocyuan-parent\rocyuan-proj-demo\SpringS
 
  # http://docs.spring.io/spring-boot/docs/current/maven-plugin/usage.html
 mvn spring-boot:run
+
+
+http://my.oschina.net/jkcui/blog/388400
+
