@@ -24,3 +24,4 @@ EXPOSE  8080
 # CMD mvn spring-boot:run -Ddetail=true -Dgoal=compile
 # CMD mvn spring-boot run
 # CMD ["java","-jar","target/service-demo.jar"]
+CMD ["java", "-Xms512m", "-Xmx1g", "-jar", "target/service-demo.jar"]
