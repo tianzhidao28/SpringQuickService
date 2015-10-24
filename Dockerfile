@@ -20,5 +20,8 @@ WORKDIR /app/
 # RUN mvn spring-boot run
 
 EXPOSE  8080
-CMD mvn spring-boot run
+
+CMD mvn spring-boot:run -Ddetail=true -Dgoal=compile
+
+# CMD mvn spring-boot run
 # CMD ["java","-jar","target/spring-boot-docker-0.0.1-SNAPSHOT.jar"]
