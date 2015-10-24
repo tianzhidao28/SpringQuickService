@@ -1,4 +1,4 @@
-image: daocloud/ci-java:openjdk7
+image:ubuntu
 env:
     - MYENV = "welcome to use rocyuan's spring quick service"
 
@@ -20,6 +20,4 @@ script:
     - echo "Run test cases here"
     - echo ""
     - echo "Below shows how to use services, mongodb/mysql/redis are the service host name"
-    - ping -c 2 mongodb
-    - ping -c 2 mysql
-    - ping -c 2 redis
+

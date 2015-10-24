@@ -12,14 +12,12 @@
 	<groupId>com.rocyuan.spring</groupId>
 	<artifactId>service-demo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>SpringQuickService</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<guava.version>16.0.1</guava.version>
-
-		<start-class>com.rocyuan.zero.QuickServiceApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -70,8 +68,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>${project.artifactId}</finalName>
-
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

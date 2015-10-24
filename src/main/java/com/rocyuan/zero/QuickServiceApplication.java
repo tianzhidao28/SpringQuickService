@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class QuickServiceApplication {
 
 	public static void main(String[] args) throws Exception {
+		// java -jar target/demo-0.0.1-SNAPSHOT.jar --server.port=8080
 		SpringApplication.run(QuickServiceApplication.class, args);
 	}
 }

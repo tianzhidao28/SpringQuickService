@@ -18,10 +18,9 @@ ADD src/ /app/src/
 WORKDIR /app/
 
 # RUN mvn spring-boot run
-
+RUN mvn clean package
 EXPOSE  8080
 
-CMD mvn spring-boot:run -Ddetail=true -Dgoal=compile
-
+# CMD mvn spring-boot:run -Ddetail=true -Dgoal=compile
 # CMD mvn spring-boot run
-# CMD ["java","-jar","target/spring-boot-docker-0.0.1-SNAPSHOT.jar"]
+# CMD ["java","-jar","target/service-demo.jar"]
