@@ -14,3 +14,6 @@ mklink /J "D:\Workplace\oschina\rocyuan\rocyuan-parent\rocyuan-proj-demo\SpringS
 ## reference
 * https://github.com/making/github-starbot
 
+## texteditor
+* http://www.bootcdn.cn/bootstrap-markdown/
+
