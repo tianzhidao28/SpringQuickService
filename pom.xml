@@ -99,10 +99,10 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-        <repository>
+       <!-- <repository>
             <id>postaop-common-release</id>
             <url>http://postaop.oicp.net:8081/nexus/content/repositories/postaop-common-release/</url>
-        </repository>
+        </repository>-->
 	</repositories>
 
 	<pluginRepositories>
