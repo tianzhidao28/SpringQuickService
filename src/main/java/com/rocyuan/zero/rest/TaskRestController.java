@@ -31,4 +31,11 @@ public class TaskRestController {
 	}
 
 
+	@RequestMapping("/qrcode")
+	public String getQrcode(){
+		return "http://weixin.qq.com/g/A4zsXaIquTh_7N36";
+	}
+
+
+
 }

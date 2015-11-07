@@ -16,6 +16,9 @@ public class TextMessageHandle implements MessageHandle<TextReqMsg> {
 
     @Override
     public boolean beforeHandle(TextReqMsg textReqMsg) {
+
+
+
         return false;
     }
 }
