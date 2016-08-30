@@ -49,7 +49,7 @@ public class Task extends IdEntity {
 	}
 
 	@Transient
-	public String getUserName() {
-		return user.getName();
+	public String getNickName() {
+		return user.getNickName();
 	}
 }
